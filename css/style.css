@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.vectorImg {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 140px;
+  top: 15px;
+}
+
+.vectorImgSecond {
+  position: absolute;
+  width: 11.76px;
+  height: 11.76px;
+  left: 149.41px;
+  top: 30.29px;
+}
+
+.vectorImgThird {
+  position: absolute;
+  width: 9.12px;
+  height: 5.91px;
+  left: 161.47px;
+  top: 30.29px;
+}
+
+ul {
+  position: absolute;
+  right: 140px;
+  top: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(31, 32, 65, 0.5);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+.imgLogo {
+  order: 999;
+  margin-left: auto;
+  position: absolute;
+  width: 53.19px;
+  height: 12.95px;
+  left: 192.5px;
+  top: 28.33px;
+  overflow: hidden;
+}
+
+.upButtonFirst {
+  box-sizing: border-box;
+  width: 87px;
+  height: 34px;
+  left: 997px;
+  top: 18px;
+  border-radius: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #bc9cff;
+  background-color: #ffff;
+  border-color: #bc9cff;
+  border-width: 2px;
+}
+
+.upButtonSecond {
+  width: 196px;
+  height: 34px;
+  left: 1104px;
+  top: 18px;
+  color: #ffff;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 22px;
+  font-family: "Montserrat";
+}
